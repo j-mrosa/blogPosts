@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>A3 - Blog Posts</title>
+    <link rel="stylesheet" href="blog-style.css">
+    <script src="blog-script.js"></script>
+</head>
+<body>
+    <div id="header">
+        <h1>THE TECH BLOG</h1>
+        <hr>
+    </div>
+  
+    <div id="filters">
+        
+        <h2>SEARCH POSTS:</h2>
+        <label>Search Title:</label>
+        <input type="text" id="inputTitle"><br>
+        <label>Search Tags:</label>
+        <input type="text" id="inputTag"><br>
+        <label >From Date:</label>
+        <input type="date" id="inputFromDate">
+        <label>&nbsp; &nbsp; To Date:</label>
+        <input type="date" id="inputToDate"><br>
+
+        <div id="check">
+            <label>Has Comments</label>
+            <input type="checkbox" id="inputCheckComments"> 
+            <label>Has Likes</label>
+            <input type="checkbox" id="inputCheckLikes">
+            <label>Has Shares</label>
+            <input type="checkbox" id="inputCheckShares"><br><br>
+        </div>
+
+        <button id="searchButton" class="myButtons">SEARCH</button>
+        <button id="resetButton" clasS="myButtons">RESET</button>
+
+        <p id="totalPosts"></p>
+       
+    </div>
+
+    <!-- div with all the posts -->
+    <div id="allPosts">
+        <hr>
+        <!-- load posts using js -->
+    </div>
+</body>
+</html>
